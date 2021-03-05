@@ -23,6 +23,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_riverpod: ^0.12.4
+  equatable: ^1.2.5
+
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -43,6 +46,170 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  assets:
+    - assets/images/professor_oak.png
+    - assets/images/trainer.png
+    - assets/images/trainer_icon.png
+    - assets/pokedex.json
+    - assets/images/pokemons/1.png
+    - assets/images/pokemons/2.png
+    - assets/images/pokemons/3.png
+    - assets/images/pokemons/4.png
+    - assets/images/pokemons/5.png
+    - assets/images/pokemons/6.png
+    - assets/images/pokemons/7.png
+    - assets/images/pokemons/8.png
+    - assets/images/pokemons/9.png
+    - assets/images/pokemons/10.png
+    - assets/images/pokemons/11.png
+    - assets/images/pokemons/12.png
+    - assets/images/pokemons/13.png
+    - assets/images/pokemons/14.png
+    - assets/images/pokemons/15.png
+    - assets/images/pokemons/16.png
+    - assets/images/pokemons/17.png
+    - assets/images/pokemons/18.png
+    - assets/images/pokemons/19.png
+    - assets/images/pokemons/20.png
+    - assets/images/pokemons/21.png
+    - assets/images/pokemons/22.png
+    - assets/images/pokemons/23.png
+    - assets/images/pokemons/24.png
+    - assets/images/pokemons/25.png
+    - assets/images/pokemons/26.png
+    - assets/images/pokemons/27.png
+    - assets/images/pokemons/28.png
+    - assets/images/pokemons/29.png
+    - assets/images/pokemons/30.png
+    - assets/images/pokemons/31.png
+    - assets/images/pokemons/32.png
+    - assets/images/pokemons/33.png
+    - assets/images/pokemons/34.png
+    - assets/images/pokemons/35.png
+    - assets/images/pokemons/36.png
+    - assets/images/pokemons/37.png
+    - assets/images/pokemons/38.png
+    - assets/images/pokemons/39.png
+    - assets/images/pokemons/40.png
+    - assets/images/pokemons/41.png
+    - assets/images/pokemons/42.png
+    - assets/images/pokemons/43.png
+    - assets/images/pokemons/44.png
+    - assets/images/pokemons/45.png
+    - assets/images/pokemons/46.png
+    - assets/images/pokemons/47.png
+    - assets/images/pokemons/48.png
+    - assets/images/pokemons/49.png
+    - assets/images/pokemons/50.png
+    - assets/images/pokemons/51.png
+    - assets/images/pokemons/52.png
+    - assets/images/pokemons/53.png
+    - assets/images/pokemons/54.png
+    - assets/images/pokemons/55.png
+    - assets/images/pokemons/56.png
+    - assets/images/pokemons/57.png
+    - assets/images/pokemons/58.png
+    - assets/images/pokemons/59.png
+    - assets/images/pokemons/60.png
+    - assets/images/pokemons/61.png
+    - assets/images/pokemons/62.png
+    - assets/images/pokemons/63.png
+    - assets/images/pokemons/64.png
+    - assets/images/pokemons/65.png
+    - assets/images/pokemons/66.png
+    - assets/images/pokemons/67.png
+    - assets/images/pokemons/68.png
+    - assets/images/pokemons/69.png
+    - assets/images/pokemons/70.png
+    - assets/images/pokemons/71.png
+    - assets/images/pokemons/72.png
+    - assets/images/pokemons/73.png
+    - assets/images/pokemons/74.png
+    - assets/images/pokemons/75.png
+    - assets/images/pokemons/76.png
+    - assets/images/pokemons/77.png
+    - assets/images/pokemons/78.png
+    - assets/images/pokemons/79.png
+    - assets/images/pokemons/80.png
+    - assets/images/pokemons/81.png
+    - assets/images/pokemons/82.png
+    - assets/images/pokemons/83.png
+    - assets/images/pokemons/84.png
+    - assets/images/pokemons/85.png
+    - assets/images/pokemons/86.png
+    - assets/images/pokemons/87.png
+    - assets/images/pokemons/88.png
+    - assets/images/pokemons/89.png
+    - assets/images/pokemons/90.png
+    - assets/images/pokemons/91.png
+    - assets/images/pokemons/92.png
+    - assets/images/pokemons/93.png
+    - assets/images/pokemons/94.png
+    - assets/images/pokemons/95.png
+    - assets/images/pokemons/96.png
+    - assets/images/pokemons/97.png
+    - assets/images/pokemons/98.png
+    - assets/images/pokemons/99.png
+    - assets/images/pokemons/100.png
+    - assets/images/pokemons/101.png
+    - assets/images/pokemons/102.png
+    - assets/images/pokemons/103.png
+    - assets/images/pokemons/104.png
+    - assets/images/pokemons/105.png
+    - assets/images/pokemons/106.png
+    - assets/images/pokemons/107.png
+    - assets/images/pokemons/108.png
+    - assets/images/pokemons/109.png
+    - assets/images/pokemons/110.png
+    - assets/images/pokemons/111.png
+    - assets/images/pokemons/112.png
+    - assets/images/pokemons/113.png
+    - assets/images/pokemons/114.png
+    - assets/images/pokemons/115.png
+    - assets/images/pokemons/116.png
+    - assets/images/pokemons/117.png
+    - assets/images/pokemons/118.png
+    - assets/images/pokemons/119.png
+    - assets/images/pokemons/120.png
+    - assets/images/pokemons/121.png
+    - assets/images/pokemons/122.png
+    - assets/images/pokemons/123.png
+    - assets/images/pokemons/124.png
+    - assets/images/pokemons/125.png
+    - assets/images/pokemons/126.png
+    - assets/images/pokemons/127.png
+    - assets/images/pokemons/128.png
+    - assets/images/pokemons/129.png
+    - assets/images/pokemons/130.png
+    - assets/images/pokemons/131.png
+    - assets/images/pokemons/132.png
+    - assets/images/pokemons/133.png
+    - assets/images/pokemons/134.png
+    - assets/images/pokemons/135.png
+    - assets/images/pokemons/136.png
+    - assets/images/pokemons/137.png
+    - assets/images/pokemons/138.png
+    - assets/images/pokemons/139.png
+    - assets/images/pokemons/140.png
+    - assets/images/pokemons/141.png
+    - assets/images/pokemons/142.png
+    - assets/images/pokemons/143.png
+    - assets/images/pokemons/144.png
+    - assets/images/pokemons/145.png
+    - assets/images/pokemons/146.png
+    - assets/images/pokemons/147.png
+    - assets/images/pokemons/148.png
+    - assets/images/pokemons/149.png
+    - assets/images/pokemons/150.png
+    - assets/images/pokemons/151.png
+
+
+  fonts:
+    - family: PressStart2P
+      fonts:
+        - asset: assets/fonts/PressStart2P-Regular.ttf
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:
